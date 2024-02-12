@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/graphik-trial');
+
+body {
+  background-image: url(flat-lay-space.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #151515;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(0, 0, 0, 0.06);  
+  width: 30%;  
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Graphik Trial', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 45vh;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: rgba(0, 0, 0, 0);
+  margin: 10px 0;
+  font-family: 'Graphik Trial', sans-serif;
+  font-size: 15px;
+}
+
+ul {
+  align-self: flex-start;
+}
+
+.item-style {
+  font-family: 'Graphik Trial', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.checked-style {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.image-check {
+  margin-right: 10px;
+}
+
+.crossed {
+  color: #393939;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+}
+
+.btn-style-add {
+  background-color: #151515;
+  color: #fff;
+  font-family: 'Graphik Trial', sans-serif;
+  font-size: 15px;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  padding: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-style-del {
+  background-color: #151515;
+  color: #fff;
+  font-family: 'Graphik Trial', sans-serif;
+  font-size: 20px;
+  border: 1px solid #393939;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+}
